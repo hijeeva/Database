@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dflex {
+    display: flex;
+    margin-top: 100px;
+}
+.cont1 {
+    padding: 20px;
+    margin: 20px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transition: 2s ease-in-out;
+}
+
+.cont1:hover {
+    box-shadow: 4px 4px 8px 8px blue;
+}
+
+.cont2 {
+    padding: 20px;
+    margin: 20px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transition: 2s ease-in-out;
+}
+
+.cont2:hover {
+    transform: rotate(180deg);
+}
+
+.cont3 {
+    padding: 20px;
+    margin: 20px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transition: 2s ease-in-out;
+}
+
+.cont3:hover {
+    transform: rotateX(180deg);
+}
+
+.cont4 {
+    padding: 20px;
+    margin: 20px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transition: 2s ease-in-out;
+}
+
+.cont4:hover {
+    transform: skewX(40deg);
+}
+
+.cont5 {
+    padding: 20px;
+    margin: 20px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transition: 2s ease-in-out;
+}
+
+.cont5:hover {
+    transform: skewY(40deg);
+}
+
+.contrel {
+    position: relative;
+    margin: 20px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    /* transition: 2s ease-in-out; */
+}
+
+.contabs {
+    position: absolute;
+    top: 0;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    transition: 2s ease-in-out;
+}
+
+.contabs:hover {
+    margin-top: 70px;
+    margin-left: 70px;
+}
